@@ -1,0 +1,86 @@
+
+
+.input-container input{
+    font-size: xx-large;
+    text-align: center;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 50px;
+}
+
+.green{
+    background-color: rgb(0, 168, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+/* ----------- yellow --------- */
+
+
+
+.yellow-input-container input{
+    font-size: xx-large;
+    text-align: center;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 50px;
+}
+
+.yellow-input-container span{
+    font-size: xx-large;
+    text-align: center;
+
+    color: white;
+    background-color: rgb(243, 194, 55);
+    font-weight: bold;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 50px;
+}
+
+
+/* -------------- gray ------------- */
+
+.gray-input-container input{
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 50px;
+}
+
+.gray-input-container span{
+    font-size: xx-large;
+    text-align: center;
+
+    font-weight: bold;
+
+    color: white;
+    background-color: #a4aec4;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 50px;
+}
+
+
+/* --------------- answers --------- */
+
+.answers-container span{
+    text-align: center;
+    padding: 2px;
+    color: white;
+
+    background-color: #79b851;
+}
+
+.answers-container span:nth-child(even){
+    background-color: #79b851;
+    opacity: 0.8;
+}

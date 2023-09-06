@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle solver</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container p-3 mx-auto md:max-w-sm">
+        <div class="p-3 shadow rounded border">
+            <p>Enter known green letters</p>
+            <div class="input-container grid grid-cols-5 gap-4 mt-2">
+                <input class="green_input" maxlength="1" type="text">
+                <input class="green_input" maxlength="1" type="text">
+                <input class="green_input" maxlength="1" type="text">
+                <input class="green_input" maxlength="1" type="text">
+                <input class="green_input" maxlength="1" type="text">
+            </div>
+        </div>
+
+        <div class="p-3 my-5 shadow rounded border">
+            <p>Enter known yellow letters</p>
+            <div class="yellow-input-container grid grid-cols-5 gap-4 mt-2">
+                <input id="yellow_input" maxlength="1" type="text">
+                
+            </div>
+        </div>
+
+        <div class="p-3 my-5 shadow rounded border">
+            <p>Enter known gray letters</p>
+            <div class="gray-input-container grid grid-cols-5 gap-4 mt-2">
+                <input id="gray_input" maxlength="1" type="text">
+                
+            </div>
+        </div>
+
+        <div class="p-3 my-5 shadow rounded border">
+            <p>Possible answers</p>
+            <div class="answers-container grid grid-cols-5 mt-2">
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js" ></script>
+</body>
+</html>
